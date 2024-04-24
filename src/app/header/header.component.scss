@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 1.6rem;
+    background-color: #2f303a00;
+    max-width: 900px;
+    margin: 0 auto; 
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 1.1rem;
+    z-index: 2;
+}
+
+img {
+    margin-right: 1rem;
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    font-size: 0.9rem;
+    margin-left: 1.3rem;
+}

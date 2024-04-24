@@ -1,0 +1,65 @@
+section {
+    color: white;
+}
+
+.discover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 2rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.divFather {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: center;
+    gap: 1rem;
+}
+
+img {
+    width: 70%;
+    height: auto;
+}
+
+.divSon {
+    background-color: #202027;
+    width: 5rem;
+    height: 5rem;
+    padding: 0.7rem;
+}
+
+p {
+    font-size: 0.9rem;
+    margin: 2rem 0rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.covers {
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+    .discover {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 8%;
+    }
+
+    .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,112 @@
+main {
+    color: white;
+}
+
+.desktopImage {
+    display: none;
+}
+
+.circleFather1 {
+    height: 13rem;
+}
+
+.circle1 {
+    width: 6rem;
+    height: 6rem;
+    background-color: #3457b21a;
+    border-radius: 50%;
+    position: fixed;
+    left: 30%;
+    right: 25%;
+  }
+  
+
+h1 {
+    font-size: 3rem;
+    font-weight: normal;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+
+p {
+    font-size: 1.2rem;
+    padding-right: 2rem;
+}
+
+button {
+    background-color: #1762A7;
+    color: white;
+    padding: 0.8rem 1.3rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 0rem;
+}
+
+button:hover {
+    background-color: #2180d8;
+}
+
+.content {
+    margin-left: 2rem;
+}
+
+.circle2 {
+    width: 6rem;
+    height: 6rem;
+    background-color: #bc3a801a;
+    border-radius: 50%;
+    position: fixed;
+    left: 2%;
+    bottom: 2%;
+}
+
+.circle3 {
+    width: 12rem;
+    height: 12rem;
+    background-color: #3457b21a;
+    border-radius: 50%;
+    position: fixed;
+    left: 70%;
+    bottom: -10%;
+}
+
+@media screen and (min-width: 768px) {
+    .desktopImage {
+        display: block;
+        height: 27rem;
+        align-self: flex-end;
+        z-index: 3;
+    }
+
+    main {
+        display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 79vh;
+    align-items: center;
+        
+    }
+
+    .circle1 {
+        position: absolute;
+        top:15%;
+        height: 18rem;
+        width: 18rem;
+
+    }
+    .circle2 {
+        display: absolute;
+        top: 35%;
+        left: 8%;
+        height: 18rem;
+        width: 18rem;
+    }
+    .circle3 {
+        display: absolute;
+        bottom: -30%;
+        left: 80%;
+        height: 25rem;
+        width: 25rem;
+        
+    }
+}

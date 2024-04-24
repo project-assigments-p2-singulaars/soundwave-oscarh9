@@ -1,0 +1,94 @@
+section {
+    color: white;
+}
+
+h2 {
+    font-size: 4rem;
+    margin-top: 0rem;
+    margin-left: 2.2rem;
+    margin-bottom: 1rem;
+}
+
+span {
+    color: #ff009d;
+}
+
+form {
+    background-color: #202027;
+    border-radius: 15px;
+    padding: 1.5rem 2.5rem;
+    margin: 0.5rem 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 0.2rem;
+}
+
+input {
+    background-color: #202027;
+    border: 1px solid #2E3852;
+    padding: 0.5rem;
+    margin-bottom: 1.3rem;
+    border-radius: 0.5rem;
+    color: #596da0;
+}
+
+button {
+    background-color: #1762A7;
+    color: white;
+    padding: 0.5rem 5rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    background-color: #2180d8;
+}
+
+.circle1 {
+    width: 8rem;
+    height: 8rem;
+    background-color: #3457b21a;
+    border-radius: 50%;
+    position: fixed;
+    left: 23%;
+    top: -5%;
+    z-index: -1;
+  }
+
+.circle2 {
+    width: 11rem;
+    height: 11rem;
+    background-color: #bc3a801a;
+    border-radius: 50%;
+    position: fixed;
+    left: -10%;
+    right: 25%;
+    bottom: 15%;
+    z-index: -1000;
+  }
+
+  @media screen and (min-width: 768px) {
+    .joinPageFather {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .circle1 {
+        position: absolute;
+        height: 30rem;
+        width: 30rem;
+        top: -30%;
+        left: 17%;
+    }
+
+    .circle2 {
+        position: absolute;
+        height: 30rem;
+        width: 30rem;
+        top: 40%;
+    }
+  }
